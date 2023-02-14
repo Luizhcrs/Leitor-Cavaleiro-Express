@@ -70,7 +70,7 @@ pesquisa.focus_set()
 janela.bind('<Return>', consultar_preco)
 
 
-img = Image.open("C:/Users/luizg/OneDrive/Documentos/BuscaPreço/fundo.png")
+img = Image.open("C:/..../..../..../..../..../fundo.png")
 resize_image = img.resize((450, 150))
 # img = img.resize((janela.winfo_screenwidth(), janela.winfo_screenheight()), Image.ANTIALIAS)
 img = ImageTk.PhotoImage(resize_image)
